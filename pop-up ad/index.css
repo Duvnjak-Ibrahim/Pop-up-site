@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(table.png);
+    color: wheat;
+    font-weight: bold;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+}
+
+h1{
+    color: burlywood;
+}
+
+.box-shadow{
+    box-shadow: 2px 2px 10px black;
+    padding: 20px;
+}
+
+.pop-up{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+     margin: auto; 
+    height: 440px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    color: whitesmoke;
+    background-image: url(table.png);
+    background-color: #212529;
+    background-blend-mode: multiply;
+
+    
+   
+}
+
+    .pop-down{
+    display: none;
+}     
+.pop-up h1{
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+
+
+.x{
+ 
+    font-size: 30px;
+    background: none;
+    border: none;
+    margin-left: 315px;
+    font-weight: bold;
+    color: tan; 
+    
+
+}
+.x:hover{
+    color: red;
+}
+.pop-up p{
+    margin-bottom: 50px;
+}
+
+#name,
+#email{
+    padding: 8px 5px;
+   margin-bottom: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border:none;
+}
+#email{
+    margin-bottom: 50px;
+}
+
+#accept,
+#decline{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.loading{
+    margin: 30px;
+   font-size: 20px;
+}
+
+.red{
+    color: #ff1e00;
+    margin-top: 0;
+}
+.purple{
+    color: #d100d1;
+}
+.blue{
+    color: #13d1ff;
+  
+}
+.big{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.reverse{
+     display: flex;
+    margin-right: 76px;
+    flex-direction: row-reverse;
+}
+.reverse button{
+    margin-right: 5px;
+}
+#reverse-btn button{
+    margin-right: 5px;
+}
+
+input{
+    transform: scale(1);
+    transition: transform 250ms;
+}
+input:hover{
+    transform: scale(1.1);
+}
+
+#form button{
+    transform: scale(1);
+    transition: transform 250ms;
+}
+#form button:hover
+{
+    transform: scale(1.1);
+    background: #13d1ff;
+}
+
+.joke{
+    margin: 0;
+    font-size: 9px;
+}
+
+.small-x{
+    margin-right: 1500px;
+    background:none;
+    border: none;
+    color: white;
+    padding: 0;
+    font-size: 5px;
+}
